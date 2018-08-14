@@ -27,7 +27,7 @@
 
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<task:annotation-driven />
-	
+	<mvc:annotation-driven/>
 	<context:annotation-config />
 	
 	<context:property-placeholder location="classpath:/database.properties"/>
@@ -57,7 +57,7 @@
 		
 		<property name="annotatedClasses">
 		<list>
-		<value>com.pankaj.model.User</value>
+		<value>com.pankaj.model.LoginUser</value>
 		</list>
 		</property>
 		
